@@ -1,0 +1,6 @@
+CM3050 MOBILE DEVELOPMENT
+(topic 3) Class vs Functional Components
+
+React Native class or functional components are used to create user interface elements in a mobile application. 
+
+It enables pages or elements to be segmented in different parts which can then be reused/exported to other areas that requires it.

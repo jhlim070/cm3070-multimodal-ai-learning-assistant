@@ -1,0 +1,4 @@
+﻿model,n_questions,n_errors,n_refused,mean_total_duration_s,median_total_duration_s,mean_wall_s,mean_load_duration_s,mean_gen_tokens_per_s,mean_prompt_tokens_per_s,cpu_pct_mean,cpu_pct_peak,ram_mb_mean,ram_mb_peak,resource_samples,resource_process_matched,error
+llama3.2,31,0,0,,,20.90036399902836,,,,51.715117759388924,100.0,23426.168730854155,25202.75390625,3142,True,
+phi3:mini,31,2,0,,,49.1957910718589,,,,57.82009471393831,100.0,28568.677103665366,31524.4921875,7813,True,
+gemma3,31,0,1,39.57166463225806,37.8351403,39.578518475255656,0.37871917096774194,7.113747976986709,41.94932653571346,54.72816498316498,100.0,29064.860721801346,31959.8671875,5940,True,

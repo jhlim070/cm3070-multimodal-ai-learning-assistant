@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated at runtime (recreated automatically on first run)
+chroma_db/
+learner.db
+.gradio/
+
+# Experiment by-products (regenerable; extracted/ contains course text)
+
+The results collected are from my own machine.
+
+# assets/
+
+These five documents are University of London course materials (CM2035, CM2040,
+CM3010, CM3020, CM3050). Copyright remains with the University of London. They are
+included solely so that the CM3070 project experiments can be reproduced for assessment.
+
+# Local / OS files
+.env
+*.log
+.DS_Store
+Thumbs.db

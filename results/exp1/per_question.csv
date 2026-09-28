@@ -1,0 +1,280 @@
+﻿model,strategy,id,doc,type,answerable,n_evidence,retrieval_ms,top1_distance,top1_source,scored,first_hit_rank,reciprocal_rank,first_source_rank,coverage@1,any_hit@1,full_hit@1,source_hit@1,coverage@3,any_hit@3,full_hit@3,source_hit@3,coverage@6,any_hit@6,full_hit@6,source_hit@6,coverage@10,any_hit@10,full_hit@10,source_hit@10
+bge-small,paragraph,1,CM2040,definitional,True,2,37.842512130737305,0.18106436729431152,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,2,CM2040,factual,True,1,47.62530326843262,0.23851346969604492,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,3,CM2040,factual,True,2,101.45783424377441,0.24344752728939056,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,4,CM2040,factual,True,1,28.625965118408203,0.2307472676038742,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,5,CM2040,conceptual,True,2,45.35984992980957,0.16325201094150543,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,6,CM2040,conceptual,True,2,45.48048973083496,0.18712249398231506,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,7,CM2035,factual,True,1,61.020612716674805,0.2403741180896759,CM2035 PPT2.pdf,True,6,0.16666666666666666,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,8,CM2035,definitional,True,2,37.07075119018555,0.3180428147315979,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,9,CM2035,factual,True,1,61.33675575256348,0.3198956251144409,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,10,CM2035,conceptual,True,1,70.84345817565918,0.21761998534202576,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,11,CM2035,conceptual,True,2,56.925296783447266,0.23457558453083038,CM2035 PPT2.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1
+bge-small,paragraph,12,CM2035,factual,True,0,65.01078605651855,0.2890148162841797,CM2035 PPT2.pdf,False,,,,,,,,,,,,,,,,,,,
+bge-small,paragraph,13,CM3020,definitional,True,2,53.27796936035156,0.2948535680770874,CM3020 Artificial Intelligence_lecture 1.pdf,True,7,0.14285714285714285,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1
+bge-small,paragraph,14,CM3020,factual,True,1,49.503326416015625,0.2685241997241974,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,15,CM3020,factual,True,1,58.83359909057617,0.26732560992240906,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,16,CM3020,conceptual,True,1,57.23237991333008,0.176337331533432,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,17,CM3020,conceptual,True,2,51.44095420837402,0.27853918075561523,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,18,CM3020,factual,True,2,50.4765510559082,0.20902019739151,CM3020 Artificial Intelligence_lecture 1.pdf,True,2,0.5,1,0.0,0,0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1
+bge-small,paragraph,19,CM3050,factual,True,1,49.58224296569824,0.22284074127674103,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,20,CM3050,factual,True,3,46.40316963195801,0.3052392899990082,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.3333333333333333,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,21,CM3050,factual,True,2,60.16087532043457,0.20711900293827057,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,22,CM3050,conceptual,True,2,59.91387367248535,0.36967355012893677,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,10,0.1,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1
+bge-small,paragraph,23,CM3050,definitional,True,1,55.696725845336914,0.10177402198314667,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,24,CM3050,factual,True,2,56.50043487548828,0.16319218277931213,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,25,CM3010,definitional,True,2,47.901153564453125,0.22879107296466827,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,26,CM3010,factual,True,4,50.91261863708496,0.2386457771062851,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.25,1,0,1,0.75,1,0,1,0.75,1,0,1,0.75,1,0,1
+bge-small,paragraph,27,CM3010,conceptual,True,1,60.05144119262695,0.2250244915485382,CM3010 Topic 3 Normalisation.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,28,CM3010,factual,True,1,56.92601203918457,0.2388775497674942,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,29,CM3010,conceptual,True,1,75.6368637084961,0.16000227630138397,CM3010 Topic 3 Normalisation.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,30,CM3010,factual,True,4,58.57372283935547,0.19992133975028992,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.75,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,paragraph,31,CM3010,unanswerable,False,0,60.266733169555664,0.3446173369884491,CM3010 Topic 3 Normalisation.pdf,False,,,,,,,,,,,,,,,,,,,
+bge-small,fixed,1,CM2040,definitional,True,2,53.38168144226074,0.2234170138835907,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,2,CM2040,factual,True,1,64.4681453704834,0.28630268573760986,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,3,CM2040,factual,True,2,55.94229698181152,0.2466917484998703,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,4,CM2040,factual,True,1,45.58515548706055,0.23200970888137817,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,5,CM2040,conceptual,True,2,54.77333068847656,0.1721138060092926,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,6,CM2040,conceptual,True,2,60.97841262817383,0.21931646764278412,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,7,CM2035,factual,True,1,56.31732940673828,0.22561633586883545,CM2035 PPT2.pdf,True,4,0.25,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,8,CM2035,definitional,True,2,49.65639114379883,0.3201378881931305,CM2035 PPT2.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,9,CM2035,factual,True,1,88.47784996032715,0.32053112983703613,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,10,CM2035,conceptual,True,1,61.74111366271973,0.2188258022069931,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,11,CM2035,conceptual,True,2,64.01705741882324,0.24902689456939697,CM2035 PPT2.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,12,CM2035,factual,True,0,67.8107738494873,0.28585097193717957,CM2035 PPT2.pdf,False,,,,,,,,,,,,,,,,,,,
+bge-small,fixed,13,CM3020,definitional,True,2,51.57804489135742,0.3005087673664093,CM3020 Artificial Intelligence_lecture 1.pdf,True,,0.0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1
+bge-small,fixed,14,CM3020,factual,True,1,54.708242416381836,0.2509422302246094,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,15,CM3020,factual,True,1,79.35667037963867,0.25493326783180237,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,16,CM3020,conceptual,True,1,58.6705207824707,0.23946499824523926,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,17,CM3020,conceptual,True,2,67.81482696533203,0.3162882328033447,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,18,CM3020,factual,True,2,80.8725357055664,0.2455470710992813,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,19,CM3050,factual,True,1,72.04437255859375,0.23657330870628357,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,20,CM3050,factual,True,3,53.56264114379883,0.296286016702652,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.3333333333333333,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,21,CM3050,factual,True,2,53.890228271484375,0.24277636408805847,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1
+bge-small,fixed,22,CM3050,conceptual,True,2,49.20363426208496,0.37286096811294556,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,7,0.14285714285714285,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1
+bge-small,fixed,23,CM3050,definitional,True,1,53.83133888244629,0.11283741891384125,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,24,CM3050,factual,True,2,46.24533653259277,0.18506447970867157,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,25,CM3010,definitional,True,2,56.882381439208984,0.3405730724334717,CM3010 Topic 3 Normalisation.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,26,CM3010,factual,True,4,63.77005577087402,0.3413302004337311,CM3010 Topic 3 Normalisation.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,0.25,1,0,1,0.25,1,0,1,0.25,1,0,1
+bge-small,fixed,27,CM3010,conceptual,True,1,46.523094177246094,0.2531014084815979,CM3010 Topic 3 Normalisation.pdf,True,9,0.1111111111111111,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1
+bge-small,fixed,28,CM3010,factual,True,1,53.95650863647461,0.2503312826156616,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,29,CM3010,conceptual,True,1,55.04417419433594,0.1781112104654312,CM3010 Topic 3 Normalisation.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,30,CM3010,factual,True,4,48.101186752319336,0.21252022683620453,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.75,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,fixed,31,CM3010,unanswerable,False,0,52.3531436920166,0.3281935751438141,CM3010 Topic 3 Normalisation.pdf,False,,,,,,,,,,,,,,,,,,,
+bge-small,sliding_window,1,CM2040,definitional,True,2,45.37558555603027,0.19534744322299957,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,2,CM2040,factual,True,1,49.32975769042969,0.22807025909423828,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,3,CM2040,factual,True,2,50.05383491516113,0.25188377499580383,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,4,CM2040,factual,True,1,49.49593544006348,0.18674901127815247,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,5,CM2040,conceptual,True,2,72.64995574951172,0.17729704082012177,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,6,CM2040,conceptual,True,2,90.48652648925781,0.15907606482505798,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,7,CM2035,factual,True,1,69.60749626159668,0.2341759353876114,CM2035 PPT2.pdf,True,6,0.16666666666666666,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,8,CM2035,definitional,True,2,47.774553298950195,0.2912343442440033,CM2035 PPT2.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,9,CM2035,factual,True,1,81.22420310974121,0.31281140446662903,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,10,CM2035,conceptual,True,1,103.47580909729004,0.25251176953315735,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,11,CM2035,conceptual,True,2,88.66477012634277,0.2427145540714264,CM2035 PPT2.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,12,CM2035,factual,True,0,80.08337020874023,0.3077915906906128,CM2035 PPT2.pdf,False,,,,,,,,,,,,,,,,,,,
+bge-small,sliding_window,13,CM3020,definitional,True,2,81.41469955444336,0.2959486246109009,CM3020 Artificial Intelligence_lecture 1.pdf,True,9,0.1111111111111111,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1
+bge-small,sliding_window,14,CM3020,factual,True,1,65.11640548706055,0.2393418699502945,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,15,CM3020,factual,True,1,77.3615837097168,0.24212883412837982,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,16,CM3020,conceptual,True,1,88.01555633544922,0.20544707775115967,CM3020 Artificial Intelligence_lecture 1.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,17,CM3020,conceptual,True,2,86.75909042358398,0.33984696865081787,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,18,CM3020,factual,True,2,89.8897647857666,0.23107978701591492,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,19,CM3050,factual,True,1,68.41182708740234,0.21756280958652496,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,20,CM3050,factual,True,3,68.36986541748047,0.25882989168167114,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.6666666666666666,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,21,CM3050,factual,True,2,74.62024688720703,0.20151470601558685,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,22,CM3050,conceptual,True,2,77.03351974487305,0.3725219964981079,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,23,CM3050,definitional,True,1,83.35661888122559,0.12019474059343338,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,24,CM3050,factual,True,2,73.99988174438477,0.2150152027606964,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,25,CM3010,definitional,True,2,53.44557762145996,0.3280976414680481,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,26,CM3010,factual,True,4,76.80487632751465,0.299040824174881,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.5,1,0,1,0.75,1,0,1,0.75,1,0,1,0.75,1,0,1
+bge-small,sliding_window,27,CM3010,conceptual,True,1,89.86425399780273,0.21974730491638184,CM3010 Topic 3 Normalisation.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,28,CM3010,factual,True,1,106.36401176452637,0.240086168050766,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,29,CM3010,conceptual,True,1,161.06343269348145,0.12407077848911285,CM3010 Topic 3 Normalisation.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,30,CM3010,factual,True,4,95.07560729980469,0.2797747254371643,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.25,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+bge-small,sliding_window,31,CM3010,unanswerable,False,0,93.22237968444824,0.3323902189731598,CM3010 Topic 3 Normalisation.pdf,False,,,,,,,,,,,,,,,,,,,
+minilm,paragraph,1,CM2040,definitional,True,2,50.31180381774902,0.5704997181892395,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,2,CM2040,factual,True,1,51.676273345947266,0.6530420780181885,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,3,CM2040,factual,True,2,41.55588150024414,0.8730568885803223,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,4,CM2040,factual,True,1,35.407066345214844,1.1979458332061768,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,5,CM2040,conceptual,True,2,42.94633865356445,0.7190914154052734,CM2040 Topic 4.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,6,CM2040,conceptual,True,2,66.4830207824707,0.5668919682502747,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,7,CM2035,factual,True,1,35.837650299072266,0.5927459001541138,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,8,CM2035,definitional,True,2,35.614967346191406,1.0151811838150024,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,9,CM2035,factual,True,1,38.275718688964844,1.1801625490188599,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,10,CM2035,conceptual,True,1,51.369428634643555,0.7583527565002441,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,11,CM2035,conceptual,True,2,54.433345794677734,0.6695232391357422,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,12,CM2035,factual,True,0,48.445940017700195,0.890204906463623,CM2035 PPT2.pdf,False,,,,,,,,,,,,,,,,,,,
+minilm,paragraph,13,CM3020,definitional,True,2,42.49906539916992,0.6447373032569885,CM3020 Artificial Intelligence_lecture 1.pdf,True,,0.0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1
+minilm,paragraph,14,CM3020,factual,True,1,45.68648338317871,0.5945242643356323,CM3020 Artificial Intelligence_lecture 1.pdf,True,5,0.2,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,15,CM3020,factual,True,1,48.39301109313965,0.5876105427742004,CM3020 Artificial Intelligence_lecture 1.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,16,CM3020,conceptual,True,1,47.70851135253906,0.65591961145401,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,17,CM3020,conceptual,True,2,41.93449020385742,0.7509016990661621,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,18,CM3020,factual,True,2,54.958343505859375,0.7063119411468506,CM3020 Artificial Intelligence_lecture 1.pdf,True,2,0.5,1,0.0,0,0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1
+minilm,paragraph,19,CM3050,factual,True,1,33.11586380004883,0.46046504378318787,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,20,CM3050,factual,True,3,38.8638973236084,0.8737444877624512,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.3333333333333333,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,21,CM3050,factual,True,2,43.00999641418457,0.8176637887954712,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,22,CM3050,conceptual,True,2,41.50581359863281,1.0077276229858398,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,23,CM3050,definitional,True,1,39.65568542480469,0.5188583731651306,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,24,CM3050,factual,True,2,42.38080978393555,0.48821839690208435,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,25,CM3010,definitional,True,2,82.39078521728516,0.7520363330841064,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,26,CM3010,factual,True,4,66.37430191040039,0.8812988996505737,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.25,1,0,1,0.75,1,0,1,0.75,1,0,1,0.75,1,0,1
+minilm,paragraph,27,CM3010,conceptual,True,1,83.26458930969238,0.6388243436813354,CM3010 Topic 3 Normalisation.pdf,True,,0.0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1
+minilm,paragraph,28,CM3010,factual,True,1,75.35958290100098,0.9476309418678284,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,29,CM3010,conceptual,True,1,73.42243194580078,0.508038341999054,CM3010 Topic 3 Normalisation.pdf,True,4,0.25,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,30,CM3010,factual,True,4,77.32748985290527,0.6078710556030273,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.75,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,paragraph,31,CM3010,unanswerable,False,0,76.55858993530273,0.9503493309020996,CM3010 Topic 3 Normalisation.pdf,False,,,,,,,,,,,,,,,,,,,
+minilm,fixed,1,CM2040,definitional,True,2,41.14651679992676,0.4162144064903259,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,2,CM2040,factual,True,1,93.14942359924316,0.7720221877098083,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,3,CM2040,factual,True,2,107.09071159362793,0.8038095831871033,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,4,CM2040,factual,True,1,78.10401916503906,1.161834478378296,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,5,CM2040,conceptual,True,2,119.54522132873535,0.740117073059082,CM2040 Topic 4.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,6,CM2040,conceptual,True,2,258.89110565185547,0.7061964273452759,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,7,CM2035,factual,True,1,405.60150146484375,1.0031976699829102,CM2035 PPT2.pdf,True,6,0.16666666666666666,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,8,CM2035,definitional,True,2,86.05051040649414,0.8318423628807068,CM2035 PPT2.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,9,CM2035,factual,True,1,390.228271484375,1.1569029092788696,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,10,CM2035,conceptual,True,1,320.7521438598633,0.7515113353729248,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,11,CM2035,conceptual,True,2,419.13843154907227,0.6734988689422607,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,12,CM2035,factual,True,0,230.12399673461914,0.8507864475250244,CM2035 PPT2.pdf,False,,,,,,,,,,,,,,,,,,,
+minilm,fixed,13,CM3020,definitional,True,2,37.57286071777344,0.736981213092804,CM3020 Artificial Intelligence_lecture 1.pdf,True,,0.0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1
+minilm,fixed,14,CM3020,factual,True,1,111.21129989624023,0.7637702226638794,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,15,CM3020,factual,True,1,76.88021659851074,0.7495850920677185,CM3020 Artificial Intelligence_lecture 1.pdf,True,4,0.25,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,16,CM3020,conceptual,True,1,64.18871879577637,0.8417509198188782,CM3020 Artificial Intelligence_lecture 1.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,17,CM3020,conceptual,True,2,61.65194511413574,1.1929621696472168,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,18,CM3020,factual,True,2,86.59911155700684,0.9316964149475098,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,19,CM3050,factual,True,1,63.66276741027832,0.5971968770027161,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,20,CM3050,factual,True,3,58.99453163146973,0.8685832023620605,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.3333333333333333,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,21,CM3050,factual,True,2,65.47188758850098,0.6943222284317017,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,2,0.5,1,0.0,0,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,22,CM3050,conceptual,True,2,57.341814041137695,1.1868188381195068,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,23,CM3050,definitional,True,1,61.20657920837402,0.47575241327285767,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,24,CM3050,factual,True,2,78.61948013305664,0.5682438611984253,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,25,CM3010,definitional,True,2,73.55785369873047,1.3577442169189453,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,3,0.3333333333333333,2,0.0,0,0,0,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,26,CM3010,factual,True,4,56.658267974853516,1.1910107135772705,CM3010 Topic 3 Normalisation.pdf,True,4,0.25,1,0.0,0,0,1,0.0,0,0,1,0.25,1,0,1,0.25,1,0,1
+minilm,fixed,27,CM3010,conceptual,True,1,63.74526023864746,0.6315239667892456,CM3010 Topic 3 Normalisation.pdf,True,,0.0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1
+minilm,fixed,28,CM3010,factual,True,1,60.57167053222656,1.0407553911209106,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,29,CM3010,conceptual,True,1,68.05014610290527,0.5708672404289246,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,30,CM3010,factual,True,4,60.39834022521973,0.534428060054779,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.75,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,fixed,31,CM3010,unanswerable,False,0,55.4964542388916,1.0634480714797974,CM3010 Topic 3 Normalisation.pdf,False,,,,,,,,,,,,,,,,,,,
+minilm,sliding_window,1,CM2040,definitional,True,2,43.12014579772949,0.589462399482727,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,2,CM2040,factual,True,1,57.80625343322754,0.621085524559021,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,3,CM2040,factual,True,2,59.96966361999512,0.5540181994438171,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,4,CM2040,factual,True,1,52.53744125366211,0.7697150111198425,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,5,CM2040,conceptual,True,2,63.00210952758789,0.5681856870651245,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,6,CM2040,conceptual,True,2,75.80709457397461,0.48150885105133057,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,7,CM2035,factual,True,1,59.23199653625488,0.8985435962677002,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,8,CM2035,definitional,True,2,74.33485984802246,0.7916356921195984,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,9,CM2035,factual,True,1,64.23091888427734,1.1746289730072021,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,10,CM2035,conceptual,True,1,67.82197952270508,0.6889278888702393,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,11,CM2035,conceptual,True,2,82.73959159851074,0.6558119058609009,CM2035 PPT2.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,12,CM2035,factual,True,0,68.93467903137207,0.9384413957595825,CM2035 PPT2.pdf,False,,,,,,,,,,,,,,,,,,,
+minilm,sliding_window,13,CM3020,definitional,True,2,52.60467529296875,0.736981213092804,CM3020 Artificial Intelligence_lecture 1.pdf,True,5,0.2,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,14,CM3020,factual,True,1,61.51151657104492,0.7917298674583435,CM3020 Artificial Intelligence_lecture 1.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,15,CM3020,factual,True,1,59.441328048706055,0.7777223587036133,CM3020 Artificial Intelligence_lecture 1.pdf,True,4,0.25,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,16,CM3020,conceptual,True,1,81.25853538513184,0.6682462096214294,CM3020 Artificial Intelligence_lecture 1.pdf,True,4,0.25,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,17,CM3020,conceptual,True,2,61.86866760253906,1.3220860958099365,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,18,CM3020,factual,True,2,69.50640678405762,0.7092581987380981,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,19,CM3050,factual,True,1,72.72458076477051,0.6953790783882141,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,20,CM3050,factual,True,3,56.25605583190918,0.6797065138816833,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.6666666666666666,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,21,CM3050,factual,True,2,61.576128005981445,0.7326188683509827,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,22,CM3050,conceptual,True,2,73.98080825805664,1.1362124681472778,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,23,CM3050,definitional,True,1,84.70940589904785,0.5868548154830933,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,24,CM3050,factual,True,2,69.89789009094238,0.5585439205169678,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,25,CM3010,definitional,True,2,98.76179695129395,1.1836159229278564,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,4,0.25,3,0.0,0,0,0,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,26,CM3010,factual,True,4,65.62018394470215,0.8816227316856384,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.25,1,0,1,0.25,1,0,1,0.75,1,0,1,1.0,1,1,1
+minilm,sliding_window,27,CM3010,conceptual,True,1,70.46699523925781,0.6202586889266968,CM3010 Topic 3 Normalisation.pdf,True,6,0.16666666666666666,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,28,CM3010,factual,True,1,108.01887512207031,0.7980372905731201,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,29,CM3010,conceptual,True,1,155.69114685058594,0.39851921796798706,CM3010 Topic 3 Normalisation.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,30,CM3010,factual,True,4,75.00290870666504,0.6390533447265625,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.75,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+minilm,sliding_window,31,CM3010,unanswerable,False,0,101.17292404174805,0.9609116315841675,CM3010 Topic 3 Normalisation.pdf,False,,,,,,,,,,,,,,,,,,,
+nomic,paragraph,1,CM2040,definitional,True,2,117.50364303588867,168.12081909179688,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,2,CM2040,factual,True,1,181.3492774963379,189.9596710205078,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,3,CM2040,factual,True,2,171.57745361328125,175.35263061523438,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,4,CM2040,factual,True,1,128.79681587219238,224.6724395751953,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,5,CM2040,conceptual,True,2,176.60021781921387,149.67999267578125,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,6,CM2040,conceptual,True,2,216.95303916931152,154.723388671875,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,7,CM2035,factual,True,1,139.0364170074463,278.15447998046875,CM2035 PPT2.pdf,True,,0.0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1
+nomic,paragraph,8,CM2035,definitional,True,2,188.8449192047119,251.9754638671875,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,9,CM2035,factual,True,1,120.57876586914062,251.3919219970703,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,10,CM2035,conceptual,True,1,222.11885452270508,214.09503173828125,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,11,CM2035,conceptual,True,2,208.7690830230713,169.9720916748047,CM2035 PPT2.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1
+nomic,paragraph,12,CM2035,factual,True,0,208.2655429840088,219.34658813476562,CM2035 PPT2.pdf,False,,,,,,,,,,,,,,,,,,,
+nomic,paragraph,13,CM3020,definitional,True,2,218.67728233337402,206.4016571044922,CM3020 Artificial Intelligence_lecture 1.pdf,True,8,0.125,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.5,1,0,1
+nomic,paragraph,14,CM3020,factual,True,1,221.13585472106934,206.89108276367188,CM3020 Artificial Intelligence_lecture 1.pdf,True,5,0.2,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,15,CM3020,factual,True,1,243.87741088867188,192.50584411621094,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,16,CM3020,conceptual,True,1,241.25361442565918,154.6575164794922,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,17,CM3020,conceptual,True,2,262.0580196380615,204.44483947753906,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,18,CM3020,factual,True,2,250.23531913757324,126.70808410644531,CM3020 Artificial Intelligence_lecture 1.pdf,True,2,0.5,1,0.0,0,0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1
+nomic,paragraph,19,CM3050,factual,True,1,226.25374794006348,189.98275756835938,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,20,CM3050,factual,True,3,199.48768615722656,206.11233520507812,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.3333333333333333,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,21,CM3050,factual,True,2,313.7238025665283,187.06727600097656,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,22,CM3050,conceptual,True,2,192.17801094055176,278.3863525390625,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,23,CM3050,definitional,True,1,197.0822811126709,105.74232482910156,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,24,CM3050,factual,True,2,259.87958908081055,160.31121826171875,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,25,CM3010,definitional,True,2,238.4934425354004,174.08213806152344,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,26,CM3010,factual,True,4,233.323335647583,163.3278045654297,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.25,1,0,1,0.75,1,0,1,0.75,1,0,1,0.75,1,0,1
+nomic,paragraph,27,CM3010,conceptual,True,1,318.93372535705566,174.04843139648438,CM3010 Topic 3 Normalisation.pdf,True,,0.0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1
+nomic,paragraph,28,CM3010,factual,True,1,274.7235298156738,152.57237243652344,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,29,CM3010,conceptual,True,1,392.1234607696533,149.1688232421875,CM3010 Topic 3 Normalisation.pdf,True,6,0.16666666666666666,1,0.0,0,0,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,30,CM3010,factual,True,4,211.99297904968262,126.8795166015625,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.75,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,paragraph,31,CM3010,unanswerable,False,0,226.72533988952637,258.5912170410156,CM3010 Topic 3 Normalisation.pdf,False,,,,,,,,,,,,,,,,,,,
+nomic,fixed,1,CM2040,definitional,True,2,161.00120544433594,160.66844177246094,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,2,CM2040,factual,True,1,198.6992359161377,224.03402709960938,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,3,CM2040,factual,True,2,308.4697723388672,161.568359375,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,4,CM2040,factual,True,1,206.27379417419434,221.995849609375,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,5,CM2040,conceptual,True,2,263.0901336669922,157.2199249267578,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,6,CM2040,conceptual,True,2,236.70697212219238,196.15737915039062,CM2040 Topic 4.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,7,CM2035,factual,True,1,170.66574096679688,272.8345031738281,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,8,CM2035,definitional,True,2,223.9220142364502,225.4430694580078,CM2035 PPT2.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,9,CM2035,factual,True,1,183.14504623413086,240.8018798828125,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,10,CM2035,conceptual,True,1,221.01330757141113,207.86093139648438,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,11,CM2035,conceptual,True,2,268.3069705963135,149.94239807128906,CM2035 PPT2.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,12,CM2035,factual,True,0,371.42467498779297,227.91416931152344,CM2035 PPT2.pdf,False,,,,,,,,,,,,,,,,,,,
+nomic,fixed,13,CM3020,definitional,True,2,243.9587116241455,203.87684631347656,CM3020 Artificial Intelligence_lecture 1.pdf,True,9,0.1111111111111111,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.5,1,0,1
+nomic,fixed,14,CM3020,factual,True,1,193.57609748840332,181.84750366210938,CM3020 Artificial Intelligence_lecture 1.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,15,CM3020,factual,True,1,174.12209510803223,177.39425659179688,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,16,CM3020,conceptual,True,1,217.90122985839844,210.78933715820312,CM3020 Artificial Intelligence_lecture 1.pdf,True,3,0.3333333333333333,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,17,CM3020,conceptual,True,2,252.68268585205078,318.17529296875,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,18,CM3020,factual,True,2,270.6871032714844,158.92771911621094,CM3020 Artificial Intelligence_lecture 1.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,19,CM3050,factual,True,1,150.90656280517578,194.4854278564453,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,20,CM3050,factual,True,3,156.38494491577148,208.7317352294922,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.3333333333333333,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,21,CM3050,factual,True,2,188.17996978759766,175.28587341308594,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,22,CM3050,conceptual,True,2,288.4025573730469,281.9001159667969,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,23,CM3050,definitional,True,1,186.68770790100098,123.03837585449219,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,24,CM3050,factual,True,2,172.44267463684082,156.77066040039062,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,25,CM3010,definitional,True,2,161.0403060913086,259.54852294921875,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,26,CM3010,factual,True,4,179.92043495178223,215.2030029296875,CM3010 Topic 3 Normalisation.pdf,True,4,0.25,1,0.0,0,0,1,0.0,0,0,1,0.5,1,0,1,0.5,1,0,1
+nomic,fixed,27,CM3010,conceptual,True,1,212.4652862548828,173.93597412109375,CM3010 Topic 3 Normalisation.pdf,True,,0.0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1
+nomic,fixed,28,CM3010,factual,True,1,241.67370796203613,178.92088317871094,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,29,CM3010,conceptual,True,1,244.61627006530762,155.12261962890625,CM3010 Topic 3 Normalisation.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,30,CM3010,factual,True,4,230.10540008544922,122.86874389648438,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.75,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,fixed,31,CM3010,unanswerable,False,0,186.0206127166748,249.63690185546875,CM3010 Topic 3 Normalisation.pdf,False,,,,,,,,,,,,,,,,,,,
+nomic,sliding_window,1,CM2040,definitional,True,2,133.1193447113037,167.55233764648438,CM2040 Topic 4.pdf,True,2,0.5,1,0.0,0,0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,2,CM2040,factual,True,1,245.03302574157715,176.328125,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,3,CM2040,factual,True,2,221.85921669006348,176.10421752929688,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,4,CM2040,factual,True,1,192.25597381591797,206.31813049316406,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,5,CM2040,conceptual,True,2,244.9636459350586,164.3705291748047,CM2040 Topic 4.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,6,CM2040,conceptual,True,2,341.6469097137451,160.3175506591797,CM2040 Topic 4.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,7,CM2035,factual,True,1,216.1538600921631,280.44744873046875,CM2040 Topic 4.pdf,True,3,0.3333333333333333,2,0.0,0,0,0,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,8,CM2035,definitional,True,2,252.00963020324707,218.7792205810547,CM2035 PPT2.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,9,CM2035,factual,True,1,275.55298805236816,243.82362365722656,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,10,CM2035,conceptual,True,1,227.82468795776367,240.89491271972656,CM2035 PPT2.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,11,CM2035,conceptual,True,2,336.1697196960449,142.33456420898438,CM2035 PPT2.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,12,CM2035,factual,True,0,292.1328544616699,251.00177001953125,CM2035 PPT2.pdf,False,,,,,,,,,,,,,,,,,,,
+nomic,sliding_window,13,CM3020,definitional,True,2,165.6641960144043,203.87684631347656,CM3020 Artificial Intelligence_lecture 1.pdf,True,7,0.14285714285714285,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.5,1,0,1
+nomic,sliding_window,14,CM3020,factual,True,1,245.27597427368164,190.8948516845703,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,15,CM3020,factual,True,1,338.3328914642334,171.8084716796875,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,16,CM3020,conceptual,True,1,207.24725723266602,157.06692504882812,CM3020 Artificial Intelligence_lecture 1.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,17,CM3020,conceptual,True,2,313.6930465698242,313.0392150878906,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1,0.5,1,0,1
+nomic,sliding_window,18,CM3020,factual,True,2,229.60591316223145,136.60513305664062,CM3020 Artificial Intelligence_lecture 1.pdf,True,1,1.0,1,0.5,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,19,CM3050,factual,True,1,244.10724639892578,187.4998779296875,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,20,CM3050,factual,True,3,213.34385871887207,188.80569458007812,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,0.6666666666666666,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,21,CM3050,factual,True,2,182.66654014587402,153.88282775878906,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,22,CM3050,conceptual,True,2,196.13981246948242,263.19769287109375,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,23,CM3050,definitional,True,1,188.92574310302734,133.35867309570312,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,24,CM3050,factual,True,2,193.36724281311035,160.48794555664062,CM3050 Topic 5 Developing a Mobile App Project.pptx,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,25,CM3010,definitional,True,2,181.14566802978516,264.0808410644531,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,26,CM3010,factual,True,4,173.60305786132812,180.63137817382812,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.5,1,0,1,0.75,1,0,1,0.75,1,0,1,0.75,1,0,1
+nomic,sliding_window,27,CM3010,conceptual,True,1,220.6254005432129,166.923828125,CM3010 Topic 3 Normalisation.pdf,True,,0.0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1,0.0,0,0,1
+nomic,sliding_window,28,CM3010,factual,True,1,190.354585647583,154.99551391601562,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,29,CM3010,conceptual,True,1,259.413480758667,114.04975891113281,CM3010 Topic 3 Normalisation.pdf,True,2,0.5,1,0.0,0,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,30,CM3010,factual,True,4,312.90602684020996,163.29876708984375,CM3010 Topic 3 Normalisation.pdf,True,1,1.0,1,0.25,1,0,1,1.0,1,1,1,1.0,1,1,1,1.0,1,1,1
+nomic,sliding_window,31,CM3010,unanswerable,False,0,276.25298500061035,238.614501953125,CM3010 Topic 3 Normalisation.pdf,False,,,,,,,,,,,,,,,,,,,

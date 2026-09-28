@@ -1,0 +1,36 @@
+{
+  "started": "2026-09-28T14:05:10",
+  "models": [
+    "llama3.2",
+    "phi3:mini",
+    "gemma3"
+  ],
+  "embedding_model": "bge-small",
+  "chunking": "sliding_window",
+  "chunk_size": 500,
+  "overlap": 100,
+  "retrieval_top_k": 10,
+  "context_chunks": 6,
+  "generation_options": {
+    "temperature": 0.1,
+    "num_ctx": 8192,
+    "num_predict": 800
+  },
+  "process_name": null,
+  "sample_interval": 0.2,
+  "documents": {
+    "CM2035 PPT2.pdf": "e6a60ef520b8aee19dd9beb3c1ddaeb8ef69b9a148b491c5c6953d1edd0953e5",
+    "CM2040 Topic 4.pdf": "7a6d00ef12049cf03be34a3ef89baf794254b9ec237253e3dd00bc2f3ac1e053",
+    "CM3010 Topic 3 Normalisation.pdf": "004963bf2a47ee3cb909aca62f990c418a25df91b46c561092ab543473333a8e",
+    "CM3020 Artificial Intelligence_lecture 1.pdf": "f956d25a87c754d31011d97cf78154e0cd0159f99f6b0e5dadbac51f6bc9907f",
+    "CM3050 Topic 5 Developing a Mobile App Project.pptx": "402ffc969e50804ac72540917008dc568717b4cbd76059290510b703de548e41"
+  },
+  "n_questions": 31,
+  "versions": {
+    "python": "3.13.14",
+    "chromadb": "1.5.9",
+    "sentence-transformers": "5.6.0",
+    "ollama": "0.6.2",
+    "torch": "2.12.1"
+  }
+}

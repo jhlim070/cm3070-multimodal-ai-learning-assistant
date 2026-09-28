@@ -1,0 +1,8 @@
+Reinforcement learning
+Studies the problem of learning to maximize a numerical reward signal over time
+in a given environment.
+Close to human learning
+No prior ‘Correct’ input/output pairs required
+Learns how to act in a given environment
+Environment provides rewards that guides the learning
+Layman wise “Smart trial and error”

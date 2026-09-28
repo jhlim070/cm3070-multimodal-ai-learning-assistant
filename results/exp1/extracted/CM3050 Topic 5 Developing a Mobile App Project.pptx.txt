@@ -1,0 +1,458 @@
+UNRESTRICTED
+
+CM3050Mobile Development
+Topic 5
+
+Evening, let’s start at 07.05pm!
+
+Learning Outcomes
+
+After studying this topic and the recordings online, you should be able to:
+Topic 5 – Developing a mobile app project
+Efficient Programming
+Automated Testing
+Jest Framework
+Syntax Transformer
+
+Efficient Programming
+
+It’s really easy to write efficient and faster code. 
+
+Efficient code, not just only improves the functionality of the code but it can also reduce the time and space complexity of the programming.
+
+B
+
+Efficient Programming
+
+Speed is one of the major factors in deciding the quality of the code, for instance, your code might be producing the required results, but it takes some time to execute then it will not be considered a quality code. 
+
+Considering an alternative approach to the same problem producing faster results will be considered better.
+
+B
+
+Efficient Programming
+
+The code should be clean i.e. comprehensible and readable so that it can be reused (saving the efforts of rewriting the whole program from scratch), adding new features, and making the process of debugging more easier.
+
+B
+
+Efficient Programming
+
+There are many methods to make programming more efficient. 
+
+Commenting
+Modular Structure
+Naming Convention
+
+B
+
+Efficient Programming
+
+Commenting
+
+Benefits:
+For documentation purpose. You need to create a documentation of your whole project because as you go on, project gets complex and it becomes difficult to keep track of everything if there's no documentation.
+
+It becomes easy for you to go through your past code which you must have written days or months ago. Comments give you a brief about what you did in those blocks of code.
+
+B
+
+Efficient Programming
+
+Commenting
+
+Benefits:
+
+Other people who are referring to your code find it useful to understand. Rather than reading whole code and finidng the logic in the code, it's easy to read the comments to understand it briefly.
+
+B
+
+Efficient Programming
+
+Commenting
+
+Commenting in React Native:
+
+Standard Comment:
+
+// Standard Comment
+
+B
+
+Efficient Programming
+
+Commenting
+
+Commenting in React Native:
+
+Multi-Line Comment:
+
+/* Multi
+Line Comment
+*/
+
+B
+
+Efficient Programming
+
+Commenting
+
+Commenting in React Native:
+
+JSX Comment:
+
+{/* JSX Comment  */}
+
+B
+
+Efficient Programming
+
+Modular Structure
+
+In recent years, fast-growing tech companies witnessed difficulties with traditional organization based functional divisions (e.g marketing, design, development, etc.).
+
+Teams were unable to adapt such a fast-changing environment.
+
+B
+
+Efficient Programming
+
+Modular Structure
+
+Think of it like multiple small companies as part of a larger one.
+
+When a tribe becomes too big, it divides itself into new ones and so do the responsibilities. 
+
+A key reason why companies started exploring this scheme is scalability, as they grow, they need to expand painlessly.
+
+B
+
+Efficient Programming
+
+Modular Structure
+
+What if the same pattern gets applied to programming?
+
+In programming the same rule can apply. 
+
+An application is like a tribe and modules are the squads composing it, each having a single responsibility.
+
+B
+
+Efficient Programming
+
+Modular Structure
+
+What if the same pattern gets applied to programming?
+
+A module encapsulates a set of related functions and components semantically related with its own functional responsibility. 
+
+They have all the assets they need to work on their own and can be tested independently of the rest of the application.
+
+B
+
+Efficient Programming
+
+Modular Structure
+
+One simple way to think of it, is to place any resuable object/codes into separate javascript file and use the import/export of React Native.
+
+Or place it in any variable.
+
+B
+
+Efficient Programming
+
+Modular Structure
+
+Example of Reusing code in the same file in React Native:
+
+const CusText = (props) => {
+      return(
+           <Text> Hi There </Text>
+      )
+}
+
+return( 
+       <CusText />
+)
+
+B
+
+Efficient Programming
+
+Modular Structure
+
+Example of Reusing code in the different file in React Native:
+
+App.js
+
+import (CusText) from ‘./CusText.js’
+
+return( 
+       <CusText />
+)
+
+B
+
+Efficient Programming
+
+Modular Structure
+
+Example of Reusing code in the different file in React Native:
+
+CusText.js
+
+export function CusText() {
+       return(
+           <Text> Hi There </Text>
+      )
+}
+
+B
+
+Efficient Programming
+
+Naming Convention
+
+Each object/function has a purpose. The name should be based on its purpose. 
+
+Instead of giving quick names like a, b, c. 
+
+Use words instead.
+
+B
+
+Automated Testing
+
+As your codebase expands, small errors and edge cases you don’t expect can cascade into larger failures. 
+
+Bugs lead to bad user experience and ultimately, business losses. 
+
+One way to prevent fragile programming is to test your code before releasing it into the wild.
+
+B
+
+Automated Testing
+
+Why Test?
+
+We're humans, and humans make mistakes. 
+
+Testing is important because it helps you uncover these mistakes and verifies that your code is working. 
+
+Perhaps even more importantly, testing ensures that your code continues to work in the future as you add new features, refactor the existing ones, or upgrade major dependencies of your project.
+
+B
+
+Automated Testing
+
+Why Test?
+
+Tests can also serve as documentation for new people joining your team. For people who have never seen a codebase before, reading tests can help them understand how the existing code works.
+
+Last but not least, more automated testing means less time spent with manual QA, freeing up valuable time.
+
+B
+
+Automated Testing
+
+The primary types of tests are:
+
+Unit Tests: Unit testing ensures that each part of the code delivers the desired output. 
+
+Developers only look at the interface and the specifications of the components. 
+
+Thorough standalone testing of each component is performed before moving on to the next unit.
+
+B
+
+Automated Testing
+
+The primary types of tests are:
+
+Component Tests: Component testing is performed to verify the functionality and/or usability of a component, but it is not restricted to only these.
+
+Components can be anything that can take input(s) and deliver some output – for example, a code module, a web page, a screen and even a system inside a larger system.
+
+B
+
+Automated Testing
+
+The primary types of tests are:
+
+Integration Tests: Integration testing is performed to test individual components to check how they function together. 
+
+It involves testing the integration between modules that are working fine individually. 
+
+Integration testing provides clarity about the overall functionality of the application.
+
+B
+
+Jest Framework
+
+Jest is a testing framework built using JavaScript and maintained by Facebook. Facebook itself uses the Jest testing framework to test their own React Native apps.
+
+For React Native version 0.38 and above, Jest is included when you create a new project, so the following setup may already be completed for you.
+
+B
+
+Jest Framework
+
+Steps to test with Jest:
+
+In the project directory, install Jest and the required testing libraries by running the following command:
+
+npm install --save-dev jestnpm install --save-dev @testing-library/react-native
+
+B
+
+Jest Framework
+
+Steps to test with Jest:
+
+Create a configuration file for Jest named jest.config.js in the project's root directory.
+
+	Add the necessary configurations to the file, such as 	specifying the test environment and any additional setup 	files. 
+	For example:
+
+module.exports = {
+  preset: 'react-native’,
+};
+
+B
+
+Jest Framework
+
+Add some details in the package.json to register the test.
+
+"scripts": {
+  "test": "jest"
+},
+"jest": {
+  "preset": "jest-expo/universal“
+},
+…
+
+B
+
+Jest Framework
+
+Write your tests.
+
+	Create test files with a .test.js or .spec.js extension next to 	the components or modules you want to test.
+	
+	Write test cases using Jest's test functions like test or it, and 	define assertions using Jest's expect function. 
+	For example:
+
+test('TextComponent renders correctly', () => {
+  const { getByText } = render(<TextComponent />);
+  const textElement = getByText('Hello, World!');
+  expect(textElement).toBeDefined();
+});
+
+B
+
+Jest Framework
+
+Those are the initial steps to register Jest testing. 
+
+Next, I will demonstrate how to describe some of this test.
+
+More functions of Jest can be found in:
+https://jestjs.io/
+
+B
+
+Syntax Transformer
+
+Syntax transformers in React Native enable the use of advanced JavaScript syntax or language features not supported by default JavaScript engines.
+
+Examples that default Javascript engines does not support:
+ECMAScript Modules: The ability to use import and export statements for module loading and exporting.
+
+// Module.js
+export function sayHello() {
+  console.log('Hello!');
+}
+
+// App.js
+import { sayHello } from './Module';
+
+B
+
+Syntax Transformer
+
+Examples that default Javascript engines does not support:
+JSX: JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your React components.
+
+import React from 'react';
+
+function MyComponent() {
+  return (
+    <div>
+      <h1>Hello, React!</h1>
+    </div>
+  );
+}
+
+B
+
+Syntax Transformer
+
+Examples that default Javascript engines does not support:
+Arrow Functions: Arrow functions provide a concise syntax for writing anonymous functions. While arrow functions are widely supported, older JavaScript engines may not have full support for them.
+
+const add = (a, b) => a + b;
+console.log(add(2, 3)); // Output: 5
+
+B
+
+Syntax Transformer
+
+Examples that default Javascript engines does not support:
+Object and Array Destructuring: Destructuring allows you to extract values from objects or arrays into individual variables. It is a convenient syntax that may not be supported by default in older JavaScript engines.
+
+const person = { name: 'John Doe', age: 25 };
+const { name, age } = person;
+console.log(name, age); // Output: John Doe 25
+
+const numbers = [1, 2, 3, 4, 5];
+const [first, second, ...rest] = numbers;
+console.log(first, second, rest); // Output: 1 2 [3, 4, 5]
+
+B
+
+Syntax Transformer
+
+Presets like @babel/preset-env and @babel/preset-react enable transformation of modern JavaScript and JSX syntax, respectively.
+
+Plugins like @babel/plugin-transform-runtime enable advanced features requiring runtime support.
+
+Note:
+React Native's default Babel configuration already includes essential transformations.
+
+B
+
+Syntax Transformer
+
+Babel is a popular syntax transformer used in React Native.
+
+Babel transforms modern JavaScript features into compatible code understood by JavaScript engines.
+
+To use Babel as a syntax transformer:
+Set up a configuration file (e.g., .babelrc or babel.config.js) in the project's root directory.
+Specify presets and plugins in the configuration file to transform the code.
+
+B
+
+That’s all for today!
+
+If you have any questions, please feel free to reach out to me at this email. 
+
+kydsim001@mymail.sim.edu.sg
+
+B
+
+END OF LESSON
+

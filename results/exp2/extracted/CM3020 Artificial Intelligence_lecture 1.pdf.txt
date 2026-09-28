@@ -1,0 +1,462 @@
+CM3020 Artificial 
+intelligence
+•Lecture 1
+•We will start in 10 mins
+•Please download slides “Artificial 
+Intelligence_lecture 1” from SIM 
+Canvas
+
+•Lecturer: Derrick Peh
+•Email: dckpeh001@mymail.sim.edu.sg
+•In class lecture slides may contain more 
+examples and answersAdministrative details
+
+Introduction
+For the first lecture 
+ONLY , we will divert 
+away from the 
+direction in Coursera
+Because I want to 
+introduce you to the 
+breadth of the 
+amazing world of 
+AI
+
+Introduction
+What do you think is 
+Artificial Intelligence
+?
+
+•What is the difference between acting and thinking ?
+•Behavior
+•What is the difference between humanly and rationally ?
+•Thought processes and reasoningIntroduction
+Thinking 
+HumanlyThinking 
+Rationally
+Acting 
+HumanlyActing 
+Rationally
+
+Introduction
+Thinking Humanly
+' ... effort to make computers think ... ' 
+(Haugeland, 1985)
+'[The automation of] activities that we associate 
+with human thinking ...' (Bellman, 1978)
+The cognitive modelling approach
+Can we “copy and paste” a human mind into a 
+machine?
+We must then first understand the human mind
+Introspection: trying to catch our own thoughts 
+as they go by
+psychological experiments: observing a person in 
+action; and through
+brain imaging: observing the brain in action
+
+Introduction
+Thinking Rationally
+'The study of mental faculties through the 
+use of computer models.' (Charniak and 
+McDermott, 1985)
+'The study of the computations that make 
+it possible to perceive, reason, and act.' 
+(Winston, 1992)
+The laws of thought approach
+All modules are boring. CM3020 is a 
+module. CM3020 is boring?
+A field known as logic
+Can we write or express everything in a 
+language?
+Theory vs reality: Do we have sufficient 
+computing resources?
+
+Introduction
+•Acting Rationally
+•' ... the study of the design of intelligence agents.' (Poole et 
+al., 1998)
+•' ... intelligence behaviour in artifacts.' (Nilsson, 1998)
+•The rational agent approach
+•To achieve the best (expected) outcome, given uncertainty
+•Is gambling profitable?
+•Careful deliberation vs reflex
+
+Introduction
+•Acting Humanly
+•' ... creating machines that perform functions that require 
+intelligence when performed by people.' (Kurzweil, 1990)’
+•... how to make computers do things at which, at the 
+moment, people are better.' (Rich and Knight, 1991)
+•The Turing Test approach
+•Covered briefly later and in depth in later lectures
+
+History of AI
+•AI is one of the newest fields in science and engineering
+•Work started soon after World War II, and the name itself was coined in 1956
+•Truly a universal field
+•huge variety of subfields, ranging from the general (learning
+•and perception) to the specific, such as playing chess, proving mathematical theorems, writing
+•poetry, driving a car on a crowded street, and diagnosing diseases
+
+History
+•1950: Paper "Programming a Computer for Playing Chess“
+•Achess playing algorithm by Claude Shannon -https://en.wikipedia.org/wiki/Shannon_number
+•Hand implemented by Alan Turing -https://www.history.com/news/in -1950 -alan -turing -created -a-chess -computer -program -that -
+prefigured -a-i
+•1952: First checkers by Arthur Samuel wrote a checkers program, a program that he would spend two decades developing and 
+refining. Written in assembly language, Samuel’s program used both alpha -beta searching and learning.
+•https://www.theatlantic.com/technology/archive/2017/07/marion -tinsley -checkers/534111/
+•1979: Backgammon
+•https://bkgm.com/articles/Berliner/BackgammonProgramBeatsWorldChamp/
+•1989: Computer Olympiad (computer versus computer competition)
+•https://en.wikipedia.org/wiki/Computer_Olympiad
+•1992: a world championship caliber checkers playing game system Schaeffer’s
+•https://www.sciencedirect.com/science/article/abs/pii/0004370292900748
+•https://www.theatlantic.com/technology/archive/2017/07/marion -tinsley -checkers/534111/
+•1997: The first match was played in Philadelphia in 1996 and won by Kasparov by 4 –2. A rematch was played in New York City in 
+1997 and won by Deep Blue by 3½ –2½.
+•https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov
+•2002: World championship player standard Scrabble AIs
+•http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.9747&rep=rep1&type=pdf
+
+History
+•2007: C ompletely solved checkers, plays the best possible game every time. A weak solution showing 
+checkers always results in a draw if neither player makes a mistake.
+•https://en.wikipedia.org/wiki/Jonathan_Schaeffer
+•2009 : First Mario AI competition
+•https://www.researchgate.net/publication/224177833_The_2009_Mario_AI_Competition
+•2015: Atari
+•2018: Texas Hold’em Poker
+•2019: Dota 2 AI, called OpenAI Five
+•https://openai.com/five/
+•2020: Atari 57 & Agent 57, the first deep reinforcement learning agent to obtain a score that is above the  
+human baseline on all 57 Atari 2600 games
+•https://www.deepmind.com/blog/agent57 -outperforming -the-human -atari -benchmark#:~:text=human%20Atari%20benchmark -
+,March%2031%2C%202020,all%2057%20Atari%202600%20games .
+•https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1181&context=gc_pubs
+
+Goal of AI
+•To understand and replicate 
+human thought processes 
+through computational modelling
+•Moved to Cognitive Science
+•Alan Turing's famous 'Turing test' 
+for intelligence
+•Proposed in 1950
+•designed to provide a 
+satisfactory operational 
+definition of intelligence.
+•a program is judged 
+intelligent if its behaviour 
+cannot be differentiated 
+from that of a human
+•Ex Machina
+•https://www.youtube.com/
+watch?v=d3LlXhE1ReE&ab_c
+hannel=hollywoodstreams
+Cognitive Science: Inter -disciplinary ﬁeld (AI, psychology, linguistics, 
+philosophy, anthropology) that tries to form computational 
+theories of human cognition
+
+Turing's Test
+Acting humanly
+If the human cannot tell whether the responses from the other side of a wall are coming 
+from a human or computer, then the computer is intelligent.
+
+Current State of AI
+•Most modern AI programs are instead designed to 
+act rationally
+•Take the best possible action given their goals , knowledge  
+and constraints
+•Why design to act rationally?
+•It provides a concrete, objective measure against which 
+performance can be judged and understood
+•Not required to model poorly understood areas of human’s 
+odd habit /unusual feature
+•Able to build systems that may be useful in situations in 
+which humans do not always behave rationally
+•Would you dare to take a ride in a Tesla that acts 
+humanly?
+
+Subfields of Artificial Intelligence
+The major 
+subfields of 
+Artificial 
+IntelligenceProblem solving
+Knowledge representation and reasoning
+Planning
+Learning
+Vision
+Natural language
+
+Subfields of 
+Artificial 
+Intelligence - 
+Problem solving
+CM3020 Artificial intelligence
+Find a sequence of operations to produce the 
+expected output from the initial inputExample
+Chess Sudoku Tower of HanoiAn agent is given a problem setting and a goal 
+and must determine how to realize that goal
+
+Subfields of 
+Artificial 
+Intelligence - 
+Knowledge 
+representation 
+and reasoning 
+studies •How an agent can represent knowledge it has 
+about the environment 
+•Uses it to derive further knowledge, 
+•Either using 
+•a logic -based representation (when the 
+knowledge is certain) or
+•a probabilistic representation
+•Example
+•Self driving cars
+•Perception -> Knowledge representation -> 
+reasoning -> Planning -> Execution
+
+Knowledge 
+representation 
+and reasoning•Facts (believe & observe knowledge)
+•Procedures (how to process knowledge)
+•Meaning (relate & define knowledge)AI agents deal with knowledge (data)
+•Wrong choice can lead to project failureRight representation is crucial
+•First order theorem proving… first order logic
+•Inductive logic programming… logic programs
+•Neural networks learning… neural networksExamples
+
+Subfields of Artificial Intelligence - Planning
+•An agent is given knowledge of an environment and formulates a plan  for interacting 
+with it to achieve its goals .
+•What is planning?
+•A collection of actions for performing some task
+•Example: assembling your new IKEA cupboard.
+•Programs are available to help humans formulate plans.
+•But it is difficult to generate plans automatically.
+•Example
+•Self driving cars
+•Perception -> Knowledge representation -> Reasoning -> Planning  -> Execution
+
+Break
+We will be back in 10 mins
+
+Subfields of Artificial 
+Intelligence - Learning
+•An agent improves its performance through 
+experience.
+•ability to distinguish between categories of 
+objects (supervised learning), 
+•learning structure from raw data (unsupervised 
+learning), 
+•learning to maximise reward (or minimise cost) 
+in an environment (reinforcement learning)
+
+Subfields of 
+Artificial 
+Intelligence - 
+Learning•Learning denotes changes in a system that 
+will enable the system to do the same task 
+more efficiently next time.
+•Example: email spam detection system
+•Trained on email messages to learn to distinguish 
+between spam and non -spam messages
+•After learning, it can be used to classify new email 
+messages into spam and non -spam folders
+
+Subfields of Artificial 
+Intelligence - Vision
+CM3020 Artificial intelligence
+•Computer Vision is the science and technology 
+of obtaining models, meaning and control 
+information from visual data 
+•An agent interprets or processes raw visual 
+images
+•How about videos?
+•Acquiring, analysing, processing and 
+understanding images and videos
+•The Robocup tournament and ASIMO are 
+examples of Artificial Intelligence using 
+Computer Vision to its greatest extent.
+
+Subfields of Artificial Intelligence - Natural 
+language Processing
+•Branch of computer science focused on developing systems 
+that allow computers to communicate with people using 
+everyday language
+•An agent must process input in a natural language (e.g. 
+English),or generate it.
+•Example: Siri
+•Challenges involving natural language understanding 
+•How to enable computers to derive meaning from 
+human or natural language input
+•Can music be a natural language?
+•https://youtu.be/UWxfnNXlVy8?t=240
+
+Turing's Test
+Acting humanly
+If the human cannot tell whether the responses from the other side of a wall are coming 
+from a human or computer, then the computer is intelligent.
+
+Tying it back to 
+Turing Test
+•The computer would need to possess the 
+following capabilities:
+•Natural language processing to enable it to 
+communicate successfully in English
+•Knowledge representation and reasoning
+•Knowledge representation to store 
+what it knows or hears
+•Automated reasoning to use the stored 
+information to answer questions and to 
+draw new conclusions
+•Machine learning to adapt to new 
+circumstances and to detect and extrapolate 
+patterns
+
+Current state 
+of the Turing 
+Test•https://www.zdnet.com/article/the -turing -
+test-has-a-problem -and-openais -gpt-4-5-
+just-exposed -it/
+•https://arxiv.org/abs/2503.23674
+CM3020 Artificial intelligence
+
+Moravec paradox
+•Reasoning requires very little 
+computation
+•Logic and algebra are difficult for 
+people and are considered a sign 
+of intelligence.
+•Expectation: the "easy" problems of 
+vision and commonsense reasoning 
+would soon fall into place
+•BUT Sensorimotor and perception 
+skills require enormous 
+computational resources
+•Then comes AI winter (~1965), a 
+period of reduced funding and interest 
+in artificial intelligence research
+
+Total Turing test
+•Turing’s test deliberately avoided direct physical 
+interaction between the interrogator and the 
+computer, because physical simulation of a person is 
+unnecessary for intelligence.
+•A modified version, to includes a video signal so that 
+•the interrogator can test the subject’s 
+perceptual  abilities  
+•the opportunity for the interrogator to pass 
+physical objects “through the hatch.” 
+•To pass the total Turing test, the computer will need
+•computer vision to perceive objects, and
+•robotics to manipulate objects and move about
+
+Current State of AI
+•https://www.instagram.com/p/DLARun3xwUV/
+•https://www.instagram.com/p/DLq3mKYzKBC/
+CM3020 Artificial intelligence
+
+Introduction
+•Why we want AI playing games
+•To build a basis for Strong / General AI. Then move onto solving real world issues
+•Test and train artificial intelligence in a low -stakes environment
+•Testbeds for developing new AI techniques which paves the way for innovations in other fields
+•Watson (NLP & Chess) became the basis for different domains including healthcare, cybersecurity, and weather 
+forecasting
+•Commercial interest
+•AI to play with us!
+•Play testing
+•Game AI means useful metrics
+•offer a way to measure the progress and ability of AI
+
+Introduction
+Philosophy of AI: AI can be broken into two distinct areas (Camp)
+Weak AI
+•AKA Narrow AI or artificial narrow intelligence (ANI)
+•Computer programs can be built that acts intelligently
+•solve problems or handle tasks that would typically be 
+considered to require intelligence
+•Disregards if a computer can think or notStrong AI 
+•AKA broad AI, general AI or artificial general 
+intelligence (AGI)
+•Machine that behaves like a human has a mind and 
+is capable of actually  thinking
+•Not just a simulation  of thinking
+•Weak AI appears  to be a human mind
+•Performs the single task for which it is trained 
+for
+•Can be strong in one area and weak in others
+•AlphaGo
+•https://deepmind.com/research/case -
+studies/alphago -the-story -so-far•Strong AI is a human mind
+•Think and act intelligently like humans
+•Close( ?) but not yet: ChatGTP  4.0?
+
+Introduction
+Philosophy of AI: AI can be broken into two distinct areas (Camp)
+Weak AI
+•AKA Narrow AI or artificial narrow intelligence (ANI)
+•Computer programs can be built that acts intelligently
+•solve problems or handle tasks that would typically be 
+considered to require intelligence
+•Disregards if a computer can think or notStrong AI 
+•AKA broad AI, general AI or artificial general 
+intelligence (AGI)
+•Machine that behaves like a human has a mind and 
+is capable of actually  thinking
+•Not just a simulation  of thinking
+•Weak AI appears  to be a human mind
+•Performs the single task for which it is trained 
+for
+•Can be strong in one area and weak in others
+•AlphaGo
+•https://deepmind.com/research/case -
+studies/alphago -the-story -so-far•Strong AI is a human mind
+•Think and act intelligently like humans
+•Close( ?) but not yet: ChatGTP  4.0?Super AI is AI that surpasses human intelligence and ability. It’s 
+also known as artificial superintelligence (ASI) or 
+superintelligence. It’s the best at everything — maths, science, 
+medicine, hobbies, you name it. Even the brightest human 
+minds cannot come close to the abilities of super AI.
+- Extract from https://www.thinkautomation.com/bots -and-ai/types -of-ai-distinguishing -between -weak -
+strong -and-super -ai/ [THIS IS OUT OF COURSE GUIDE SCOPE]
+
+Introduction
+Philosophy of AI: AI can be broken into two distinct areas (Camp)
+Weak AI
+•AKA Narrow AI or artificial narrow intelligence (ANI)
+•Computer programs can be built that acts intelligently
+•solve problems or handle tasks that would typically be 
+considered to require intelligence
+•Disregards if a computer can think or notStrong AI 
+•AKA broad AI, general AI or artificial general 
+intelligence (AGI)
+•Machine that behaves like a human has a mind and 
+is capable of actually  thinking
+•Not just a simulation  of thinking
+•Weak AI appears  to be a human mind
+•Performs the single task for which it is trained 
+for
+•Can be strong in one area and weak in others
+•AlphaGo
+•https://deepmind.com/research/case -
+studies/alphago -the-story -so-far•Strong AI is a human mind
+•Think and act intelligently like humans
+•Close( ?) but not yet: ChatGTP  4.0?Super AI is AI that surpasses human intelligence and ability. It’s 
+also known as artificial superintelligence (ASI) or 
+superintelligence. It’s the best at everything — maths, science, 
+medicine, hobbies, you name it. Even the brightest human 
+minds cannot come close to the abilities of super AI.
+- Extract from https://www.thinkautomation.com/bots -and-ai/types -of-ai-distinguishing -between -weak -
+strong -and-super -ai/
+
+The evolution•https://g.co/gemini/share/12ba98d587d7
+
+AI playgame
+•https://youtu.be/DcYLT37ImBY?si=UUrk5DtQga7l -cOy
+•Playing Pokemon  via reinforcement learning
+•https://youtu.be/NfGcWGaO1E4
+•25 ChatGPT AIs Play A Game - So What Happened?
+

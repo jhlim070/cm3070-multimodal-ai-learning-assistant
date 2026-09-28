@@ -1,0 +1,5 @@
+UI Elements
+
+UI (User Interface) elements in React Native are components that are used to create the visual and interactive aspects of a mobile application. 
+
+These components allow users to interact with the application and provide feedback on the actions they perform.
